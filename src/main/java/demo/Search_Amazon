@@ -45,6 +45,7 @@ public class Search_Amazon {
         WebElement searchbox=driver.findElement(By.xpath("//textarea[@type='search']"));
         
         searchbox.sendKeys("AMAZON");
+        searchbox.sendKeys(Keys.RETURN);
         Thread.sleep(2000);
 
        Boolean amazonInOrComFound=false;
