@@ -28,9 +28,9 @@ public class Search_Amazon {
 
     }
 
-     public void endTest()
+    public void endTest()
      {
-         System.out.println("End Test: TestCases");
+        //System.out.println("End Test: TestCases");
         driver.close();
         driver.quit();
 
@@ -38,7 +38,7 @@ public class Search_Amazon {
 
     
     public  void testCase01() throws InterruptedException{
-        System.out.println("Start Test case: testCase01");
+        System.out.println("Start Test case: AMAZON TEST CASE");
         driver.get("https://www.google.com");
         Thread.sleep(5000);
 
@@ -65,7 +65,7 @@ public class Search_Amazon {
         }
  
 
-        System.out.println("end Test case: testCase01");
+        System.out.println("end Test case: AMAZON TEST CASE");
     }
 
 
